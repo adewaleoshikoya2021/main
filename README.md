@@ -20,4 +20,5 @@ On this page you will find environment list links or how to get credentials
 2. You will log into bastion host and run the following:
 ` gcloud auth login `
 3. That will either redirect to google login page or will provide link to login.
-4. After your gloud has been authenticated, you will have access to our GCP.
+4. After your gloud has been authenticated, you will need to request command to obtain .kube from the K8S admin.
+5. You are then all set, run ` kubectl get nodes ` or ` kubectl get namespaces ` to test your access. 
