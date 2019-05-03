@@ -15,4 +15,9 @@ On this page you will find environment list links or how to get credentials
 3. Send to viber group or send an email to support@fuchicorp.com with additional information.
 4. After all  you will need to run `ssh bastion.fuchicorp.com` 
 
-
+# Authenticate to Google Cloud Platform
+1. You must have already provided a gmail account to current GCP admin
+2. You will log into bastion host and run the following:
+` gcloud auth login `
+3. That will either redirect to google login page or will provide link to login.
+4. After your gloud has been authenticated, you will have access to our GCP.
