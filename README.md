@@ -17,10 +17,19 @@ On this page you will find environment list links or how to get credentials
 
 # Authenticate to Google Cloud Platform
 1. You must have already provided a gmail account to current GCP admin
+
 2. You will log into bastion host and run the following:
 ` gcloud auth login `
+
 3. That will either redirect to google login page or will provide link to login.
-4. After your gloud has been authenticated, you will need run: 
-`gcloud container clusters get-credentials fuchicorp-cluster --zone us-central1-a --project imperial-sphere-239820 `
+ - If it redirects you to login page, then you will log into your gmail that was provided to the GCP admin
+ - If it provides link then copy the link to browser and login. Then it will provide code which you will copy paste 
+     to your terminal.
+     
+4. After your gloud has been authenticated, you will need run:
+- `gcloud container clusters list` Get the cluster name $cluster_name and zone $zone
+-  run the following to copy kube configuration files to your home dir: 
+-  `gcloud container clusters get-credentials $cluster_name --zone $zone `
+
 
 5. You are then all set, run ` kubectl get nodes ` or ` kubectl get namespaces ` to test your access. 
