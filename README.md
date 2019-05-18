@@ -33,3 +33,14 @@ On this page you will find environment list links or how to get credentials
 
 
 5. You are then all set, run ` kubectl get nodes ` or ` kubectl get namespaces ` to test your access. 
+
+# Service NodePort-Ranges:
+
+All services: 
+`8000 - 8090` 
+
+Pynote Port-Rage:
+`7000 - 7100`
+
+Applications Port-Ranges
+`7101 - 7200`
