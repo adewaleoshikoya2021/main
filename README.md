@@ -4,7 +4,7 @@ On this page you will find environment list links or how to get credentials
 # Service Links 
 1. Nexus Server  [Nexus](http://nexus.fuchicorp.com/)
 2. Jenkins  Server [Jenkins](http://jenkins.fuchicorp.com/)
-3. Jira Server [Jira](http://jira.fuchicorp.com/)
+3. Vault Server [Vault](http://vault.fuchicorp.com/)
 4. Grafana Server [Grafana](http://grafana.fuchicorp.com/login)
 5. Bastion Host [BastionHost](bastion.fuchicorp.com)
 
