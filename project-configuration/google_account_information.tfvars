@@ -1,9 +1,9 @@
 google_project_name = "My First Project"
 
-google_project_id = "gold-order-274923"
+google_project_id = "solid-antler-278903"
 
-google_email = "comfuchicorp101@gmail.com"
+google_email = "comfuchicorp142@gmail.com"
 
-cluster_version = "1.15.11-gke.1"
+cluster_version = "1.15"
 
-google_bucket_name = "fuchicorp"
+google_bucket_name = "fuchicorp-common"
