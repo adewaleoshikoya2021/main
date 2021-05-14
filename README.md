@@ -1,46 +1,42 @@
-# Environment list
-On this page you will find environment list links or how to get credentials
+# FuchiCorp Main Where Everything Starts
+#fuchicorp/main
 
-# Service Links 
-1. Nexus Server  [Nexus](http://nexus.fuchicorp.com/)
-2. Jenkins  Server [Jenkins](http://jenkins.fuchicorp.com/)
-3. Vault Server [Vault](http://vault.fuchicorp.com/)
-4. Grafana Server [Grafana](http://grafana.fuchicorp.com/login)
-5. Bastion Host [BastionHost](bastion.fuchicorp.com)
+## Welcome 
+Welcome to FuchiCorp new member. I would like to thank you to being interested on this project. I know you can do your best and show yourself better side. My name is Farkhod Sadykov founder of FuchiCorp small Corporation. If you have any questions to me please reach out my information below
 
-
-# Get access to bastion host 
-1. You will need to create ticket. [Example Ticket ](https://github.com/fuchicorp/main-fuchicorp/issues/11)  
-2. You will need to provide your pub key.   [How to get pub key](https://stackoverflow.com/questions/3828164/how-do-i-access-my-ssh-public-key)
-3. Send to viber group or send an email to support@fuchicorp.com with additional information.
-4. After all  you will need to run `ssh bastion.fuchicorp.com` 
-
-# Authenticate to Google Cloud Platform
-1. You must have already provided a gmail account to current GCP admin
-
-2. You will log into bastion host and run the following:
-` gcloud auth login `
-
-3. That will either redirect to google login page or will provide link to login.
- - If it redirects you to login page, then you will log into your gmail that was provided to the GCP admin
- - If it provides link then copy the link to browser and login. Then it will provide code which you will copy paste 
-     to your terminal.
-     
-4. After your gloud has been authenticated, you will need run:
-- `gcloud container clusters list` Get the cluster name $cluster_name and zone $zone
--  run the following to copy kube configuration files to your home dir: 
--  `gcloud container clusters get-credentials $cluster_name --zone $zone `
+## Contact information
+| Name              |          email             |  slack   |
+|-------------------|:--------------------------:|---------:|
+| Farkhod Sadykov   | sadykovfarkhod@gmail.com   | fsadykov |
+| Kelly   Salrin    | salrindesigngeek@gmail.com | ksalrin  |
 
 
-5. You are then all set, run ` kubectl get nodes ` or ` kubectl get namespaces ` to test your access. 
+## All tools links  
+1. [FuchiCorp Nexus](http://nexus.fuchicorp.com/)
+2. [FuchiCorp Jenkins](http://jenkins.fuchicorp.com/)
+3. [FuchiCorp Vault](http://vault.fuchicorp.com/)
+4. [FuchiCorp Grafana ](http://grafana.fuchicorp.com/login)
+5. [FuchiCorp BastionHost](bastion.fuchicorp.com)
 
-# Service NodePort-Ranges:
 
-All services: 
-`8000 - 8090` 
+## First step 
+You will need to deploy cluster by following the requirements. After you have everything ready and you are ready to deploy please follow this documentation [GKE CLUSTER DEPLOY](https://github.com/fuchicorp/cluster-infrastructure/blob/master/kube-cluster/README.md)
 
-Pynote Port-Rage:
-`7000 - 7100`
+#### First requirements
+1. You should be able to access to your bastion host
+2. You should have one google account 
+3. You will need one domain nam
 
-Applications Port-Ranges
-`7101 - 7200`
+
+
+## Second step
+After you have cluster up and running you will need to deploy common tools. Please follow this documentation to be able to deploy common tools [DEPLOY COMMON TOOLS](https://github.com/fuchicorp/common_tools/blob/master/README.md)
+
+
+## Second requirements
+1. You should finish first step mean cluster up and running
+2. Make sure you can run `kubeclt get pods`
+3. Create GitHub Organization for yourself 
+4. You need a GitHub token 
+5. You need `fuchicorp-service-account.json`
+6. You 
