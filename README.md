@@ -24,14 +24,15 @@ After you have cluster up and running you will need to deploy common tools. Plea
 
 
 ## All FuchiCorp tools 
-1. [FuchiCorp IsItUp App](http://isitup.fuchicorp.com/)
-2. [FuchiCorp Nexus](http://nexus.fuchicorp.com/)
-3. [FuchiCorp Jenkins](http://jenkins.fuchicorp.com/)
-4. [FuchiCorp Vault](http://vault.fuchicorp.com/)
-5. [FuchiCorp Grafana ](http://grafana.fuchicorp.com/login)
-6. [FuchiCorp Kuberentes Dashboard](http://dashboard.fuchicorp.com/login)
-7. [FuchiCorp Waypoint](http://waypoint.fuchicorp.com)
-8. [FuchiCorp BastionHost](bastion.fuchicorp.com)
+1. [FuchiCorp Academy](http://academy.fuchicorp.com/)
+2. [FuchiCorp IsItUp App](http://isitup.fuchicorp.com/)
+3. [FuchiCorp Nexus](http://nexus.fuchicorp.com/)
+4. [FuchiCorp Jenkins](http://jenkins.fuchicorp.com/)
+5. [FuchiCorp Vault](http://vault.fuchicorp.com/)
+6. [FuchiCorp Grafana ](http://grafana.fuchicorp.com/login)
+7. [FuchiCorp Kuberentes Dashboard](http://dashboard.fuchicorp.com/login)
+8. [FuchiCorp Waypoint](http://waypoint.fuchicorp.com)
+9. [FuchiCorp BastionHost](bastion.fuchicorp.com)
 
 
 ## Rules
