@@ -1,5 +1,5 @@
 # FuchiCorp Main Where Everything Starts
-Welcome to FuchiCorp new member. I would like to thank you to being interested on this project. I know you can do your best and show yourself better side. My name is Farkhod Sadykov founder of FuchiCorp small Corporation. If you have any questions to me please reach out my information below
+Welcome to FuchiCorp I would like to thank you to being interested in this project. I know you can do your best and show yourself a better side. My name is Farkhod Sadykov and I am a founder of FuchiCorp small Corporation. If you have any questions to me please reach out to my information below. You will need to deploy your own cluster and common tools by following this documentation. Read the first step and do the deployment and come back read the second steps and deploy it make sure you follow the requirements 
 
 
 ## First step 
@@ -8,7 +8,7 @@ You will need to deploy cluster by following the requirements. After you have ev
 #### First requirements
 1. You should be able to access to your bastion host
 2. You should have one google account 
-3. You will need one domain nam
+3. You will need one domain name 
 
 
 
@@ -23,14 +23,28 @@ After you have cluster up and running you will need to deploy common tools. Plea
 5. You need `fuchicorp-service-account.json` 
 
 
-
 ## All FuchiCorp tools 
-1. [FuchiCorp Nexus](http://nexus.fuchicorp.com/)
-2. [FuchiCorp Jenkins](http://jenkins.fuchicorp.com/)
-3. [FuchiCorp Vault](http://vault.fuchicorp.com/)
-4. [FuchiCorp Grafana ](http://grafana.fuchicorp.com/login)
-5. [FuchiCorp BastionHost](bastion.fuchicorp.com)
+1. [FuchiCorp IsItUp App](http://isitup.fuchicorp.com/)
+2. [FuchiCorp Nexus](http://nexus.fuchicorp.com/)
+3. [FuchiCorp Jenkins](http://jenkins.fuchicorp.com/)
+4. [FuchiCorp Vault](http://vault.fuchicorp.com/)
+5. [FuchiCorp Grafana ](http://grafana.fuchicorp.com/login)
+6. [FuchiCorp Kuberentes Dashboard](http://dashboard.fuchicorp.com/login)
+7. [FuchiCorp Waypoint](http://waypoint.fuchicorp.com)
+8. [FuchiCorp BastionHost](bastion.fuchicorp.com)
 
+
+## Rules
+1. Don't miss 5 pm meetings
+2. Be respectful to your team members and who is in the project 
+3. Be active and show us what you can do
+
+
+## You will be off boarded
+1. Missing 3 meetings 
+2. Not showing activities
+3. Forking private and public repos 
+4. Publishing anything related to FuchiCorp
 
 
 ## Contact information
@@ -40,4 +54,4 @@ After you have cluster up and running you will need to deploy common tools. Plea
 | Kelly   Salrin    | salrindesigngeek@gmail.com | ksalrin  |
 
 
-#fuchicorp/main
+#fuchicorp/main #fuchicorp/first #fuchicorp/second
