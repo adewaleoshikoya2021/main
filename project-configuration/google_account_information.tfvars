@@ -1,6 +1,0 @@
-google_project_name = "My First Project"
-google_project_id   = "delta-pattern-285202"
-google_email        = "comfuchicorp142@gmail.com"
-cluster_version     = "1.17"
-google_bucket_name  = "fuchicorp-common-331"
-google_region       = "us-west1-b"
