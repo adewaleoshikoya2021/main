@@ -1,5 +1,5 @@
 # FuchiCorp Main Where Everything Starts
-Welcome to FuchiCorp I would like to thank you to being interested in this project. I know you can do your best and show yourself a better side. My name is Farkhod Sadykov and I am a founder of FuchiCorp small Corporation. If you have any questions to me please reach out to my information below. You will need to deploy your own cluster and common tools by following this documentation. Read the first step and do the deployment and come back read the second steps and deploy it make sure you follow the requirements 
+Welcome to FuchiCorp main repo. To get stared we will suggest you to join our slack workspace [JOIN NOW](https://join.slack.com/t/fuchicorp/shared_invite/zt-137bqkjp0-opqNRaSp6QuJomoT8MNAZA) so you can get help from our mentors. If you are just looking for videos not the project you can enroll one of our plans [SUBSCRIPTIONS](https://academy.fuchicorp.com/accounting/plans).   
 
 
 ## First step 
@@ -55,4 +55,4 @@ After you have cluster up and running you will need to deploy common tools. Plea
 | Kelly   Salrin    | salrindesigngeek@gmail.com | ksalrin  |
 
 
-#fuchicorp/main #fuchicorp/first #fuchicorp/second
+#fuchicorp/management/main
